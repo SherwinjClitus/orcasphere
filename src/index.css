@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Forces the map engine container to scale cleanly to its boundaries */
+.leaflet-container {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #0b1329 !important; /* Base oceanic navy background tone */
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
